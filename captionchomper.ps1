@@ -1,4 +1,4 @@
-$folderpath = "C:\Users\amhadinger\Desktop\captions\"
+$folderpath = "C:\Users\User\Desktop\captions\"
 function FormatCaptions {
     ForEach ($path in Get-ChildItem -Path $folderpath -Recurse -Include *.sbv) {
         $i = 1
